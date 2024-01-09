@@ -1,29 +1,23 @@
-.home {
+.aboutPage {
     display: flex;
     flex-direction: row;
     margin: 1rem;
 
-    img {
-        height: 80vh;
+    .logoDiv {
+        width: 50%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            margin: auto;
+        }
     }
 
-    .rightBody {
-        display: flex;
-        flex-direction: column;
+    .about {
+        width: 50%;
         margin: auto;
 
-        h1 {
-            font-style: bold;
-            font-size: 3rem;
-            margin: 0;
-        }
-
-        p {
-            font-size: 1.2rem;
-        }
-
         button {
-            width: fit-content;
             border: none;
             padding: 1rem 1.5rem;
             background-color: #007DFC;
@@ -35,5 +29,6 @@
                 cursor: pointer;
             }
         }
+
     }
 }

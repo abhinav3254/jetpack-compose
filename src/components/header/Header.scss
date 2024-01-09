@@ -14,7 +14,8 @@
             margin-right: 10px;
 
             // here &> means just immmediate li after menuItems
-            &>li {
+            // Link tag is treated as a tag in react
+            &>li a {
                 text-decoration: none;
                 list-style: none;
                 background-color: white;
