@@ -1,0 +1,39 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+
+    img {
+        height: 80vh;
+    }
+
+    .rightBody {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+
+        h1 {
+            font-style: bold;
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        button {
+            width: fit-content;
+            padding: 10px 14px;
+            border: none;
+            color: white;
+            background-color: #007DFC;
+            border-radius: 2px;
+
+            &:hover {
+                opacity: 0.8;
+                cursor: pointer;
+            }
+        }
+    }
+}
