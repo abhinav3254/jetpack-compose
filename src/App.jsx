@@ -1,8 +1,11 @@
-import React from 'react'
+import { Route } from 'react-router-dom';
+import Home from './components/Home';
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Route path='/' Component={<Home />} />
+    </div>
   )
 }
 
