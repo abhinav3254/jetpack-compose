@@ -1,46 +1,70 @@
-# Project Documentation
+# Getting Started with Create React App
 
-References for images and documentation that I have used to build this project are as follows:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1. [Image Source](https://www.freepik.com/free-vector/business-team-discussing-ideas-startup_6974855.htm#query=about&position=11&from_view=search&track=sph&uuid=fe406fd3-3e1b-4457-bab7-7a024fb9f16e)
-2. [Logo Source](https://logoipsum.com/)
+## Available Scripts
 
+In the project directory, you can run:
 
-## Dependencies
+### `npm start`
 
-This project utilizes the following dependencies:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **[@testing-library/jest-dom](https://github.com/testing-library/jest-dom)**: Version 5.17.0
-  - Description: Provides custom jest matchers for asserting on DOM elements.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **[@testing-library/react](https://github.com/testing-library/react)**: Version 13.4.0
-  - Description: A set of utilities for testing React components.
+### `npm test`
 
-- **[@testing-library/user-event](https://github.com/testing-library/user-event)**: Version 13.5.0
-  - Description: Simulates user events for testing React components.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **[react](https://reactjs.org/)**: Version 18.2.0
-  - Description: A JavaScript library for building user interfaces.
+### `npm run build`
 
-- **[react-dom](https://reactjs.org/docs/react-dom.html)**: Version 18.2.0
-  - Description: DOM-specific methods for React. In most cases, you will not need to use this package directly.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **[react-scripts](https://github.com/facebook/create-react-app/tree/main/packages/react-scripts)**: Version 5.0.1
-  - Description: Scripts and configurations used by Create React App.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **[sass](https://sass-lang.com/)**: Version 1.69.7
-  - Description: A popular CSS preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS).
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **[web-vitals](https://github.com/GoogleChrome/web-vitals)**: Version 2.1.4
-  - Description: Library for measuring essential web performance metrics.
+### `npm run eject`
 
-## Installation
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-To install the dependencies, use the following command:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```bash
-npm install
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-abhinav3254
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
