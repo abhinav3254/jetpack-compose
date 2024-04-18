@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 const Nav = () => {
     return (
@@ -6,13 +6,13 @@ const Nav = () => {
             <nav className='flex items-center justify-center'>
                 <ul className="flex w-1/4">
                     <li className="hover:text-blue-500 m-1">
-                        <Link to="/">Home</Link>
+                        <NavLink to="/">Home</NavLink>
                     </li>
                     <li className="hover:text-blue-500 m-1">
-                        <Link to="/about">About</Link>
+                        <NavLink to="/about">About</NavLink>
                     </li>
                     <li className="hover:text-blue-500 m-1">
-                        <Link to="/products">Products</Link>
+                        <NavLink to="/products">Products</NavLink>
                     </li>
                 </ul>
             </nav>
