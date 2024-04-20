@@ -1,10 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
-import Products from './components/Products';
 import About from './components/About';
+import Contact from './components/Contact';
 import Nav from './components/Nav';
-import NotFound404 from './components/NotFound404';
-import OrderSummary from './components/OrderSummary';
+import Posts from './components/Posts';
+import PostDetails from './components/PostDetails';
+
 
 const App = () => {
   return (
@@ -13,10 +14,10 @@ const App = () => {
       <div className='mt-5'>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/products' element={<Products />} />
           <Route path='/about' element={<About />} />
-          <Route path='/order-summary' element={<OrderSummary />} />
-          <Route path='*' element={<NotFound404 />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/post' element={<Posts />} />
+          <Route path='/post/:id' element={<PostDetails />} />
         </Routes>
       </div>
     </div>
